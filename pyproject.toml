@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "python-tutorials"
+version = "0.1.0"
+description = "examples for python design patterns and best practices"
+readme = "README.md"
+authors = ["gil"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+pandas = "^1.5.0"
+python-dotenv = "^1.0.1"
+numpy = "^1.26.4"
+types-tqdm = "^4.66.0.20240417"
+scikit-learn = "^1.6.1"
+PyPDF2 = "^3.0.1"
+beautifulsoup4 = "^4.12.3"
+aiofiles = "^24.1.0"
+aiohttp = "^3.11.11"
+requests = "^2.32.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "--suppress-no-test-exit-code"
