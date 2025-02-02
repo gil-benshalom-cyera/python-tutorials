@@ -1,7 +1,7 @@
 import time
 import logging
 from functools import wraps
-from utils.general import init_logger
+from utils.general import init_basic_logger
 
 logger = logging.getLogger(__name__)
 

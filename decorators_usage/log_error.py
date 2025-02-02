@@ -1,5 +1,5 @@
 from utils.decorators import log_exceptions
-from utils.general import init_logger
+from utils.general import init_basic_logger
 
 
 @log_exceptions
@@ -13,5 +13,5 @@ def log_exception():
 
 
 if __name__ == '__main__':
-    init_logger()
+    init_basic_logger()
     log_exception()
