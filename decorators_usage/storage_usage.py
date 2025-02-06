@@ -1,5 +1,4 @@
 from utils.decorators import save_to_dict
-from utils.general import init_basic_logger
 
 
 # Example Usage
